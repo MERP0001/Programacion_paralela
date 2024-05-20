@@ -41,7 +41,7 @@ El programa imprime el tiempo de ejecución del cálculo paralelo y secuencial e
 
 ### Resultados con Diferentes Cantidades de Procesos
 
-![Descripción de la imagen](images/mi_imagen.png)
+![imagen de ejemplo](paralela_example(3).png)
 
 ### Gráf
 

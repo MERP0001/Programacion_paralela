@@ -26,7 +26,7 @@ Este programa realiza la multiplicación de matrices de manera paralela utilizan
 3. **Compilar y Ejecutar:**
    - Compila el programa utilizando tu IDE.
    - Ejecuta el programa de manera normal.
-    ![imagen de ejemplo](images/mi_imagen.png)
+    ![imagen de ejemplo](/paralela_example.png)
 
 
 ## Ejemplos de Entrada y Salida

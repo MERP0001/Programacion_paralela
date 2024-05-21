@@ -11,7 +11,7 @@ Este programa realiza la multiplicación de matrices de manera paralela utilizan
 1. **Revisar el SDK y la biblioteca MPI:**
    - Asegúrate de tener un SDK de Java y la biblioteca MPI instalada en tu dispositivo.
    - Si no tienes la biblioteca MPI-Java, abre la opción de `Project Structure` en tu entorno de desarrollo integrado (IDE), haz clic en el botón `+`, y agrega la biblioteca MPI.
-![imagen de ejemplo](paralela_example.png)
+![imagen de ejemplo](https://github.com/MERP0001/Programacion_paralela/blob/main/paralela_example(1).png)
 2. **Configuración del Entorno:**
    - Abre la configuración de `Run` en tu IDE.
    - Aplica la opción `AV` y agrega los siguientes parámetros:

@@ -1,17 +1,20 @@
+¡Claro! Aquí tienes la estructura corregida para tu archivo README:
+
 # ParallelMatrixMultiplication README
 
 ## Descripción
 
-Este programa realiza la multiplicación de matrices de manera paralela utilizando la biblioteca MPI en Java. El programa divide la tarea de multiplicación de matrices entre múltiples procesos para aprovechar el procesamiento paralelo y reducir el tiempo de ejecución.
-
-```
+Este programa realiza la multiplicación de matrices de manera paralela utilizando la biblioteca MPI en Java. Divide la tarea de multiplicación de matrices entre múltiples procesos para aprovechar el procesamiento paralelo y reducir el tiempo de ejecución.
 
 ## Instrucciones para Compilar y Ejecutar el Programa
 
 1. **Revisar el SDK y la biblioteca MPI:**
    - Asegúrate de tener un SDK de Java y la biblioteca MPI instalada en tu dispositivo.
-   - Si no tienes la biblioteca MPI-Java, abre la opción de `Project Structure` en tu entorno de desarrollo integrado (IDE), haz clic en el botón `+`, y agrega la biblioteca MPI.
-![imagen de ejemplo](https://github.com/MERP0001/Programacion_paralela/blob/main/paralela_example(1).png)
+   - Si no tienes la biblioteca MPI-Java, sigue estos pasos:
+     - Abre la opción de `Project Structure` en tu entorno de desarrollo integrado (IDE).
+     - Haz clic en el botón `+` y agrega la biblioteca MPI.
+     ![Ejemplo](https://github.com/MERP0001/Programacion_paralela/blob/main/paralela_example(1).png)
+
 2. **Configuración del Entorno:**
    - Abre la configuración de `Run` en tu IDE.
    - Aplica la opción `AV` y agrega los siguientes parámetros:
@@ -22,14 +25,12 @@ Este programa realiza la multiplicación de matrices de manera paralela utilizan
      ```
      MPJ_HOME=C:\mpj-v0_44
      ```
-   ![imagen de ejemplo](paralela_example(1).png)
+   ![Ejemplo](paralela_example(1).png)
 
 3. **Compilar y Ejecutar:**
    - Compila el programa utilizando tu IDE.
    - Ejecuta el programa de manera normal.
-    ![imagen de ejemplo](paralela_example(2).png)
-
-
+   ![Ejemplo](paralela_example(2).png)
 
 ## Ejemplos de Entrada y Salida
 
@@ -41,8 +42,6 @@ El programa imprime el tiempo de ejecución del cálculo paralelo y secuencial e
 
 ### Resultados con Diferentes Cantidades de Procesos
 
-![imagen de ejemplo](paralela_example(3).png)
-
-### Gráf
+![Ejemplo](paralela_example(3).png)
 
 Este README proporciona una guía completa para compilar, ejecutar y analizar el rendimiento del programa de multiplicación de matrices paralelas en Java utilizando MPI.
